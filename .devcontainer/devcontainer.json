@@ -1,0 +1,16 @@
+{
+	"name": "fcc-responsive-web-design",
+	"image": "mcr.microsoft.com/devcontainers/base:alpine-3.19",
+	// "forwardPorts": [
+	// 	3000,
+	// 	3001
+	// ],
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-vscode.live-server"
+			]
+		}
+	},
+	"postStartCommand": "code -r README.md"
+}
